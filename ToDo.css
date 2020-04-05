@@ -1,0 +1,106 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('Pictures/Background.jpg');
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: 'Arimo', sans-serif;
+}
+.jumbotron {
+  text-align: center;
+  background-color: rgba(202, 185, 149, 0.397);
+  margin-top: 10rem;
+}
+.display-4 {
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  font-family: 'Satisfy', cursive;
+}
+.display-4:hover {
+  color: black;
+}
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+  margin-left: 30px;
+  text-align: left;
+  text-shadow: black;
+  color: white;
+}
+ul {
+  list-style: none;
+  font-size: large;
+  margin-top: 1rem;
+}
+li {
+  border-bottom: 1px solid white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.delete {
+  cursor: pointer;
+}
+.delete:hover {
+  color: red;
+  text-decoration: solid;
+}
+
+.unDone {
+  cursor: pointer;
+}
+.unDone:hover {
+  color: chartreuse;
+}
+.completed {
+  color: chartreuse;
+  cursor: pointer;
+}
+.completed:hover {
+  color: white;
+}
+
+.todoLine {
+  text-decoration: line-through;
+  color: chartreuse;
+}
+
+.refersh {
+  cursor: pointer;
+}
+
+.refersh:hover {
+  color: black;
+}
+
+.text-center {
+  font-size: xx-large;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.fa-twitter:hover {
+   color: #00ACEE;
+}
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+.fa-instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-linkedin-in:hover {
+  color: #0e76a8;
+}
+.fa-github:hover {
+  color: #c9510c;
+}
